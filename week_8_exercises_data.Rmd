@@ -1,0 +1,41 @@
+---
+title: "week_8_exercises_data"
+author: "J.Blondeau"
+date: "2023-10-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This week you will use ggplot2 to explore fish datasets.  You will be looking for outliers and examining the distributions of density in different habitat types.  
+
+Inspect the fish_psu_density.csv dataset.  These data are density of 5 individual species at each sample site collected over three years in 2 different regions (NCRMP and DCRMP).
+
+  
+### Part 1 Box Plots
+
+1. Create box and whisker plots, grouped by YEAR, REGION, STRAT and SPECIES_CD, of each species' density.  
+    - Use both fish_psu_density.csv & fish_psu_density_w_outliers.csv.  They are identical except for a few outliers in the data.
+    
+2. Create another set of box and whisker plots like #1 except split the box plots by REGION (all the species in NCRMP and all the species in DCRMP, separately).  Hint: Faceting
+
+
+### Part 2 Scatter Plots
+
+3. Create a scatter plot of STRAT-level mean density vs. standard deviation.  Each point on the plot will represent a single species mean density vs sd in every STRAT.  For this plot you can aggregate all the years together to get a better understanding of STRAT-level variance.
+    - How would you interpret this plot?
+
+4. Create another scatter plot like #3 using the fish_psu_density_w_outliers dataset to see how outliers affect the plots.
+
+### Part 3 Histograms
+
+Inspect the length_frequency.csv dataset.  This data represents two fish's relative length frequency in each size bin (1cm).  
+
+5.  Using the length_frequency.csv, create a length frequency histogram (in 1cm size bins).  Both species should be on the same plot so you can compare their relative population size compositions.  Hint:  You will likely need to pivot the data first.
+
+Lastly, the usvi_2021_raw.csv dataset represents raw counts that divers observed in their sample.  One way to check for errors in a dataset like this is to plot a histogram of the raw numbers to visually check if something looks off.  
+
+6. Create a histogram for each species present in the dataset showing the distribution of NUMBER_OF_INDIVIDUALS.  Hint: For Loops
+

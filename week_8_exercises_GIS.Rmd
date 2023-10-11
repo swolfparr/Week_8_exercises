@@ -1,0 +1,27 @@
+---
+title: "week_8_exercises_GIS"
+author: "J.Blondeau"
+date: "2023-10-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This week we will continue working with the STEER bathymetric raster dataset.
+
+This weeks exercise is going to be tricky.  You will need to use the tools learned today as well as use tools previously learned.
+
+***Again, the solution cannot be solved in one step.  It will take many steps to reach the final product.  I would advice to think through the problem first, and perhaps write down the workflow on paper.***  
+
+
+### Finding a novel algae toxin
+
+Pretend a new toxic algae was discovered.  Toxins found in the algae have been linked to a coral disease.  Prior research has shown that the algae thrives best on...
+
+    1. Southern facing habitats.
+    2. Moderate to high sloping areas (>= 10 degrees).
+    3. In depths between 12 and 15 meters.
+
+Using the STEER Bathymetric dataset, create a single shapefile showing where all the above criteria are met.  This will be the areas you would recommend for eradication. 
