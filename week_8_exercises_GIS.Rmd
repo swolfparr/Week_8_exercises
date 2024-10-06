@@ -1,7 +1,7 @@
 ---
 title: "week_8_exercises_GIS"
 author: "J.Blondeau"
-date: "2023-10-08"
+date: "2024-10-08"
 output: html_document
 ---
 
@@ -20,7 +20,7 @@ This weeks exercise is going to be tricky.  You will need to use the tools learn
 
 Pretend a new toxic algae was discovered.  Toxins found in the algae have been linked to a coral disease.  Prior research has shown that the algae thrives best on...
 
-    1. Southern facing habitats.
+    1. Southern facing habitats (135 < degrees < 225).
     2. Moderate to high sloping areas (>= 10 degrees).
     3. In depths between 12 and 15 meters.
 

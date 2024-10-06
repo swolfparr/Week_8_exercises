@@ -1,7 +1,7 @@
 ---
 title: "week_8_exercises_data"
 author: "J.Blondeau"
-date: "2023-10-07"
+date: "2024-10-08"
 output: html_document
 ---
 
@@ -16,7 +16,7 @@ Inspect the fish_psu_density.csv dataset.  These data are density of 5 individua
   
 ### Part 1 Box Plots
 
-1. Create box and whisker plots, grouped by YEAR, REGION, STRAT and SPECIES_CD, of each species' density.  
+1. Create box and whisker plots, grouped by YEAR, REGION, STRAT and SPECIES_CD, to plot mean species' density.  
     - Use both fish_psu_density.csv & fish_psu_density_w_outliers.csv.  They are identical except for a few outliers in the data.
     
 2. Create another set of box and whisker plots like #1 except split the box plots by REGION (all the species in NCRMP and all the species in DCRMP, separately).  Hint: Faceting
@@ -31,7 +31,7 @@ Inspect the fish_psu_density.csv dataset.  These data are density of 5 individua
 
 ### Part 3 Histograms
 
-Inspect the length_frequency.csv dataset.  This data represents two fish's relative length frequency in each size bin (1cm).  
+Inspect the length_frequency.csv dataset.  This data represents two fish's relative length frequency in 1cm size bins.  
 
 5.  Using the length_frequency.csv, create a length frequency histogram (in 1cm size bins).  Both species should be on the same plot so you can compare their relative population size compositions.  Hint:  You will likely need to pivot the data first.
 
